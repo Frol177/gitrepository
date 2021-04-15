@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:inputType="text"
+        android:text="text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:inputType="textPersonName"
+        android:text="textPersonName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:inputType="phone"
+        android:text="phone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:inputType="textPassword"
+        android:text="textPassword" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:inputType="textEmailAddress"
+        android:text="textEmailAddress"
+        android:maxEms="10"
+        />
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
